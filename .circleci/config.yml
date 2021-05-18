@@ -14,7 +14,7 @@ jobs:
           command: func azure functionapp publish $FUNCTION_APP_NAME --javascript
 orbs:
   azure-cli: circleci/azure-cli@1.0.0
-  node: cimg/node:4.1.0
+  node: circleci/node@4.1.0
 version: 2.1
 workflows:
   login-workflow:
